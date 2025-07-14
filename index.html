@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing skills and projects - Perfect for LinkedIn recruiters">
+    <meta name="keywords" content="portfolio, developer, JavaScript, web development, projects">
+    <title>Hao Tsuneyama - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Hao Tsuneyama</span>
+                </h1>
+                <p class="hero-subtitle">Software Developer with a User-Centric Mindset</p>
+                <p class="hero-description">
+                    Focused on creating clean, functional, and user-friendly digital experiences. 
+                    Experienced in full project cycles — from ideation and development to deployment and improvement.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    
+                </div>
+            </div>
+            <div class="hero-images" style="position: relative; width: 250px; height: 350px; display: flex; align-items: center; justify-content: center;">
+                <img src="images/IMG_2661.JPG" alt="Image 1" class="diagonal-img diagonal-img-back">
+                <img src="images/DSC01579.JPG" alt="Image 2" class="diagonal-img diagonal-img-front">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate developer with a strong foundation in modern web technologies. 
+                        My journey in software development started with curiosity and has evolved into a 
+                        career focused on creating impactful digital solutions.
+                    </p>
+                    <p>
+                        I have an hands on experience building softwares, websites, and mobile apps using modern technologies.
+                        My approach combines a solid understanding of development principles with a user-centric mindset 
+                        to deliver applications that exceed expectations.
+                    </p>
+                    <p>
+                        I was honored to receive an academic award from Griffith University, recognizing my dedication and performance. 
+                        Balancing university studies with part-time work has sharpened my time management and organizational skills — 
+                        allowing me to consistently meet deadlines and maintain a high level of productivity in fast-paced environments.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Clean, Maintainable Code</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Performance Optimized</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="experience-card">
+                        <h3>Background</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"><i class="fas fa-user-graduate"></i></div>
+                                <div class="timeline-content">
+                                    <h4>University</h4>
+                                    <p>Bachelor of Information Technology • Griffith University</p>
+                                    <p>Major in Software Development in Gold Coast, Australia </p>
+                                    <p>2023-2026</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"><i class="fas fa-concierge-bell"></i></div>
+                                <div class="timeline-content">
+                                    <h4>Hotel Receptionist</h4>
+                                    <p>Worked as a receptionist in Kanazawa, Japan</p>
+                                    <p>2022-2023</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                                <div class="timeline-content">
+                                    <h4>High School</h4>
+                                    <p>Kanazawa Izumigaoka High School</p>
+                                    <p>2019-2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="JavaScript">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-item" data-skill="HTML">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Python">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Cloud</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Git">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Docker">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker (Beginner)</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        <div class="skill-item" data-skill="AWS">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS (Beginner)</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills / Other Skills Section -->
+    <section id="soft-skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Soft Skills / Other Skills</h2>
+            <div class="skills-grid" style="grid-template-columns: 1fr;">
+                <div class="skill-category">
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Japanese">
+                            <i class="fas fa-language"></i>
+                            <span>Japanese (Native)</span>
+                        </div>
+                        <div class="skill-item" data-skill="English">
+                            <i class="fas fa-language"></i>
+                            <span>English (Fluent)</span>
+                        </div>
+                        <div class="skill-item" data-skill="Time Management">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Management</span>
+                        </div>
+                        <div class="skill-item" data-skill="Teamwork">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                        </div>
+                        <div class="skill-item" data-skill="Communication">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hao80206/NutriMate-project" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <img src="images/NutriMate.png" alt="Nutrimate" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Nutrimate - Nutrition Tracker (Group Project) </h3>
+                        <p>A desktop application that allows users to track their nutrition and fitness goals. 
+                            It is built with Python and wxPython.
+                            Starting from planning to implementation, our team created a detailed Work Breakdown Structure or Gantt chart to manage project milestones. 
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">wxPython</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hao80206/ClimateChange" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <img src="images/climateChange.png" alt="Climate Change" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ClimateChange Awareness Site (Group Project)</h3>
+                        <p>A responsive educational website designed to raise awareness about climate change and promote eco-friendly actions. 
+                            Hypothetically developed for the Brisbane City Council to enhance user engagement on sustainability topics, 
+                            the project focuses on boosting interaction through clean design, accessible content, and intuitive navigation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hao80206/FakeStoreAPI" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <img src="images/fakeStore.png" alt="FakeStore" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FakeStore Mobile App</h3>
+                        <p>A mock e-commerce mobile app using the FakeStore API. Built with Expo and JavaScript, 
+                            it displays product listings, allows users to view details, and navigate between screens with smooth UI transitions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">Expo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="api">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hao80206/MobileAppDev-todoApp" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <img src="images/todoApp.png" alt="TodoApp" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Todo App</h3>
+                        <p>A simple yet efficient task management app built with JavaScript. 
+                            Users can add, delete, and mark tasks as complete. Designed with clean UI and AsyncStorage for persistent data.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Expo</span>
+                            <span class="tech-tag">React Native</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="api">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hao80206/TicTacToe" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <img src="images/tictactoe.jpg" alt="TicTacToe" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TicTacToe Game</h3>
+                        <p>A classic two-player TicTacToe game developed using JavaScript. Features turn tracking, win detection, and a simple UI. 
+                            Great for practicing game logic.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Expo</span>
+                            <span class="tech-tag">React Native</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="api">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hao80206/php-Uni-website" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <img src="images/university-website.jpg" alt="University Website" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>University Website</h3>
+                        <p>A dynamic web application built with PHP that supports role-based functionality for students and teachers. 
+                            The system includes course enrollment, assignment submission, grading features, and distinct dashboards. 
+                            Authorization is implemented to ensure secure access — students are restricted from accessing teacher screens 
+                            or performing actions like grading assignments.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">php</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Thank you for visiting my portfolio! I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>haohaococco@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href = "www.linkedin.com/in/hao-tsuneyama-b12a65303">www.linkedin.com/in/hao-tsuneyama-b12a65303</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href = "https://github.com/hao80206">https://github.com/hao80206</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Hao Tsuneyana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
